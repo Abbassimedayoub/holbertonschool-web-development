@@ -1,3 +1,7 @@
+
+![1f4cd63ecc3a8c03b0f4309b74aca179e225aabf](https://github.com/user-attachments/assets/61c98ad0-8ae1-4134-9fc0-11d8ef33ed98)
+
+
 # Holberton School Web Development - CSS Styling Project
 
 ## Author
