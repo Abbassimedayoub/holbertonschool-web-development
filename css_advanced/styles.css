@@ -120,6 +120,42 @@ header {
     font-size: 16px;
     font-style: italic;
         margin-top: 0px;
+}
+.Quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    height: 25rem;
+    font-size: 22px;
+}
+
+.Quote img {
+    width: 160px;
+    height: 160px;
+    margin-right: 3rem;
+}
+
+.Quote_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Ensures vertical alignment */
+    justify-content: center;
+    text-align: left; /* Aligns text to the left */
+}
+
+.Quote_center blockquote {
+    margin: 0; 
+    font-style: italic; 
+}
 
 
+
+.Quote_center h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Quote_center p {
+    font-style: italic;
 }
