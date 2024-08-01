@@ -1,0 +1,125 @@
+body {
+    margin: auto;
+    color: #FFFFFF;
+}
+header {
+    background-image: url(imgs/background.png);
+    height: 1093px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1103px;
+    height: 29.46px;
+    margin-top: 35.02px;
+    margin-left: 171.59px;
+
+
+}
+.navbar a.logo img{
+    height: 12.58px;
+    width: 111.83;
+
+}
+.navbar_links {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    height: 15px;
+
+}
+.navbar_links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15.08px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+
+}
+.banner h1 { 
+    font-size: 120px;
+    color: #FFFFFF;
+    display: flex;
+    font-weight: bold;
+}
+.banner_subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 684px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -105px;
+}
+.banner button {
+    background-color: #C271FF; 
+    width: 162px; 
+    height: 44px; 
+    font-size: 14px;
+    color: #FFFFFF; 
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5); 
+    border: none;
+    cursor: pointer; 
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    border-radius: 25px;
+}
+.learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle {
+    font-size: 32px;
+    width: 291px;
+    height: 40px; 
+}
+.highlight {
+    color: #C271FF;
+    font-weight: bold;
+}
+.learners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1009px;
+    height: 237px;
+}
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 237px;
+    width: 150px;
+    margin-top: 10rem;;
+}
+.person img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+.person h3 { 
+    size: 18px;
+}
+.person p {
+    align-items: center;
+    font-size: 16px;
+    font-style: italic;
+        margin-top: 0px;
+
+
+}
