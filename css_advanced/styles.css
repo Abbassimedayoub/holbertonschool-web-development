@@ -265,6 +265,10 @@ header {
     width: 30px;
     border-radius: 50%;
 }
+.video_satrs img {
+    width: 15px;
+    height: 15px;
+}
 
 .avatar h3 {
     color: #C271FF;
@@ -355,12 +359,14 @@ header {
     font-size: rgba(7, 22, 41, 1);
     font-weight: bold;
 }
+
 .FAQ p {
     font-size: 14px;
-    color:  rgba(7, 22, 41, 0.5016);
+    color: rgba(7, 22, 41, 0.5016);
     font-weight: 400;
     ;
 }
+
 .FAQ h1 {
     font-size: 60px;
     color: rgba(7, 22, 41, 1);
@@ -368,6 +374,44 @@ header {
 
 .FAQ_article {
     display: grid;
-    grid-template-columns:  auto auto;
+    grid-template-columns: auto auto;
     gap: 40px 150px;
+}
+
+footer {
+    background: rgba(7, 22, 41, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.foterelemnts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    margin-top: 70px;
+
+
+}
+
+.foterelemnts img {
+    height: 30px;
+    width: 169px;
+}
+
+.foterelemntsimg img {
+    height: 30px;
+    width: 30px;
+
 }
